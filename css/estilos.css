@@ -1,23 +1,50 @@
-body{
-    background: url("../img/fondo.png");
+*{
+  font-family: "Roboto Mono";
 }
-#bienvenida{
-    display: flex;
-    padding: 0.5em;
-    margin: 1em;
-    width: 500px;
-    height: 500px;
+/*fondos*/
+body{
+  background: url("../img/fondo.png");
+}
+#fondo{
+  background: url("../img/fondo2.png");
 }
 
-.navegador{
-    padding: 1em;
+ p,h1,h2,h3{
+  color: rgb(255, 255, 255);
+}
+article{
+  display: inline-flex;
+	flex-direction: column;
+  padding: 1em;
+}
+section{
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  margin: 1em;
+  background-color: rgba(65, 63, 58, 0.8);
+}
+
+section h3{
+  background-color: rgba(139, 0, 0, 0.938);
+}
+
+.importante,button{
+  color: rgb(224, 204, 15);
+  background-color: rgba(139, 0, 0, 0.842);
+
+}
+/*no funciona*/
+#navegador{
+    padding: 0.5em;
     margin: 1em;
     background-color: rgba(65, 58, 58, 0.8);
     justify-content: center;
-	align-items: center;
+	  align-items: center;
 }
+/*funcionamiento de links*/
 footer{
     padding: 0.3em;
+    margin: 1.3em;
     background-color: rgba(65, 58, 58, 0.8);
 }
 footer li {
@@ -30,7 +57,7 @@ footer li {
   }
   
   footer a:hover,
-  footer a:active {
+  footer a:active{
     background-color: rgb(199, 21, 21);
     color: black;
   }
@@ -38,4 +65,22 @@ footer li {
   footer a {
     color: lightgray;
     text-decoration: none;
+  }
+
+#bienvenida{
+    padding: 0.5em;
+    margin: 1em;
+    width: 500px;
+    height: 500px;
+}
+
+#img{
+  margin: 1em;
+  width: 300px;
+  height: 300px;
+}
+
+/* media querie para pantallas de al menos 480px (desktop)*/
+  @media (min-width: 480px){
+    
   }
