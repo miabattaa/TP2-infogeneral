@@ -1,0 +1,41 @@
+body{
+    background: url("../img/fondo.png");
+}
+#bienvenida{
+    display: flex;
+    padding: 0.5em;
+    margin: 1em;
+    width: 500px;
+    height: 500px;
+}
+
+.navegador{
+    padding: 1em;
+    margin: 1em;
+    background-color: rgba(65, 58, 58, 0.8);
+    justify-content: center;
+	align-items: center;
+}
+footer{
+    padding: 0.3em;
+    background-color: rgba(65, 58, 58, 0.8);
+}
+footer li {
+    list-style-type: none;
+  }
+  
+  footer a:visited {
+    background-color: rgb(185, 154, 13);
+    text-decoration: none;
+  }
+  
+  footer a:hover,
+  footer a:active {
+    background-color: rgb(199, 21, 21);
+    color: black;
+  }
+  
+  footer a {
+    color: lightgray;
+    text-decoration: none;
+  }
