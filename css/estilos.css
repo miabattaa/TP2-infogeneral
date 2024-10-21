@@ -12,6 +12,11 @@ body{
  p,h1,h2,h3{
   color: rgb(255, 255, 255);
 }
+
+.logo{
+  margin: 1em;
+  color: yellow; 
+}
 article{
   display: inline-flex;
 	flex-direction: column;
@@ -22,9 +27,22 @@ section{
   padding: 0.5em;
   margin: 1em;
   background-color: rgba(65, 63, 58, 0.8);
+  text-align: center;
+}
+#info{
+  color:white;
+  text-align: center;
+  padding: 0.5em;
+  margin: 1em;
+ 
+
 }
 
-section h3{
+.subseccion{
+  background-color: rgba(199, 170, 8, 0.541);
+}
+
+#titulo,section h3{
   background-color: rgba(139, 0, 0, 0.938);
 }
 
@@ -51,13 +69,12 @@ footer li {
     list-style-type: none;
   }
   
-  footer a:visited {
+  footer a:visited,
+  footer a:active {
     background-color: rgb(185, 154, 13);
-    text-decoration: none;
   }
   
-  footer a:hover,
-  footer a:active{
+  footer a:hover{
     background-color: rgb(199, 21, 21);
     color: black;
   }
@@ -78,6 +95,25 @@ footer li {
   margin: 1em;
   width: 300px;
   height: 300px;
+}
+
+
+#img2{
+  margin: 2em;
+  width: 230px;
+  height: 300px;
+}
+
+#lanzamiento{
+  padding: 1em;
+  margin: 1em;
+  background-color: rgba(65, 63, 58, 0.8);
+  align-items: center;
+  text-align: center;
+}
+
+#video{
+  background-color: rgba(139, 0, 0, 0.842);
 }
 
 /* media querie para pantallas de al menos 480px (desktop)*/
