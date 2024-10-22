@@ -9,7 +9,7 @@ body{
   background: url("../img/fondo2.png");
 }
 
- p,h1,h2,h3{
+ p,h1,h2,h3,#texto{
   color: rgb(255, 255, 255);
 }
 
@@ -34,30 +34,34 @@ section{
   text-align: center;
   padding: 0.5em;
   margin: 1em;
- 
-
+  background-color: rgba(216, 185, 12, 0.5);
 }
-
+header p{
+  color: rgb(85, 4, 4);
+}
 .subseccion{
-  background-color: rgba(199, 170, 8, 0.541);
+  background-color: rgba(199, 170, 8, 0.5);
 }
 
 #titulo,section h3{
-  background-color: rgba(139, 0, 0, 0.938);
+  background-color: rgba(139, 0, 0, 0.8);
 }
 
 .importante,button{
   color: rgb(224, 204, 15);
-  background-color: rgba(139, 0, 0, 0.842);
+  background-color: rgba(139, 0, 0, 0.8);
 
 }
-/*no funciona*/
-#navegador{
-    padding: 0.5em;
-    margin: 1em;
-    background-color: rgba(65, 58, 58, 0.8);
-    justify-content: center;
-	  align-items: center;
+button{
+  margin: 1.5em;
+  padding: 0.3em;
+}
+#galeria{
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  height: 450px;
+  width: 600px;
 }
 /*funcionamiento de links*/
 footer{
@@ -97,7 +101,6 @@ footer li {
   height: 300px;
 }
 
-
 #img2{
   margin: 2em;
   width: 230px;
@@ -109,14 +112,37 @@ footer li {
   margin: 1em;
   background-color: rgba(65, 63, 58, 0.8);
   align-items: center;
-  text-align: center;
 }
 
 #video{
   background-color: rgba(139, 0, 0, 0.842);
 }
+/*formulario*/
+aside{
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+form {
+	background: rgb(139, 0, 0);
+	border: 0.2em solid black;
+	padding: 1em;
+  margin: 1em;
+  align-items: center;
+  display: inline-flex;
+}
 
-/* media querie para pantallas de al menos 480px (desktop)*/
-  @media (min-width: 480px){
-    
-  }
+fieldset {
+	background: rgba(65, 63, 58, 0.8);
+  padding: 1em;
+  margin: 1em;
+  align-items: center;
+}
+
+legend,label{
+	color: rgb(230, 179, 13);
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0.2em;
+  margin: 0.2em;
+}
