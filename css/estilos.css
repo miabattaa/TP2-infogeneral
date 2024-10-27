@@ -17,11 +17,13 @@ body{
   margin: 1em;
   color: yellow; 
 }
+
 article{
   display: inline-flex;
-	flex-direction: column;
+  flex-direction: column;
   padding: 1em;
 }
+
 section{
   color: rgb(255, 255, 255);
   padding: 0.5em;
@@ -36,7 +38,7 @@ section{
   margin: 1em;
   background-color: rgba(216, 185, 12, 0.5);
 }
-header p{
+header p,.subtitulo{
   color: rgb(85, 4, 4);
 }
 .subseccion{
@@ -101,7 +103,7 @@ footer li {
   height: 300px;
 }
 
-#img2{
+.img2{
   margin: 2em;
   width: 230px;
   height: 300px;
