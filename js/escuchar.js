@@ -41,4 +41,3 @@ boton6.addEventListener('click', () =>
  boton7.addEventListener('click', () =>
     location.href= 'https://www.youtube.com/watch?v=AupwoN8QvbU'
     );
-   
